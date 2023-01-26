@@ -32,36 +32,33 @@
 <body>
 	<div class="main-page-wrapper">
 		<header class="header-two">
-			<div class="top-header">
-				<div class="container">
-					<div class="compantLogoImg">
-						<div class="logoImg">
-							<a href="index.html">
-								<img src="images/logo/logo-1.png" alt="companyLogo">
-							</a>
-						</div>
-
-
-						<div class="logoImg">
-							<a href="index.html">
-								<img src="images/logo/NSG LOGO.JPG " alt="companyLogo">
-
-							</a>
-							<span>
-								<div id="date-time"></div>
-							</span>
-
-						</div>
-
-					</div>
-				</div>
-			</div>
-
 			<div class="theme-menu-wrapper">
 				<div class="container">
 					<div class="bg-wrapper clearfix">
-						<div class="menu-wrapper float-left">
-							<nav id="mega-menu-holder" class="clearfix">
+						<div class="menu-wrapper">
+							<div class="logo-area">
+								<div class="logo-icon">
+								<span style="" onclick="openNav()">&#9776;</span>
+
+								</div>
+								<div class="logo-img">
+									<a href="index.html">
+										<img src="images/logo/logo-1.png" alt="">
+									</a>
+									
+								</div>
+								<div class="time">
+									<div id="date-time"></div>
+								</div>
+								<div class="logo-img">
+									<a href="index.html">
+										<img src="images/logo/NSG_LOGO.png" alt="">
+									</a>
+								
+								</div>
+								
+							</div>
+							<!-- <nav id="mega-menu-holder" class="clearfix">
 								<ul class="clearfix">
 									<li class="active"><a href="index.html">Home</a>
 
@@ -103,7 +100,7 @@
 
 								</ul>
 
-							</nav>
+							</nav> -->
 						</div>
 					</div>
 				</div>
@@ -135,7 +132,7 @@
 					<div class="carousel-item video_slider ">
 						<video class="video-slide" src="video/video-3.mp4" autoplay muted loop></video>
 						<div class="slider_title">
-						<p>Welcome to Prokleen<br><a href="">Weebsite</a></p>
+							<p>Welcome to Prokleen<br><a href="">Weebsite</a></p>
 						</div>
 					</div>
 				</div>
@@ -152,16 +149,25 @@
 				</button>
 			</div>
 		</header>
-
 	</div>
 
+
+	<!-- .....................side-navbar.............. -->
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Clients</a>
+			<a href="#">Contact</a>
+		</div>
+	</div>
+	<!-- .....................side-navbar.............. -->
 
 
 
 
 	<!-- about us -->
-
-
 	<div class="about-compnay-two section-spacing">
 		<div class="overlay">
 			<div class="container">
@@ -590,7 +596,8 @@
 								<div class="col-4">
 									<a href="images/gallery/gallery-2.jpg" data-fancybox="gallery"
 										data-caption="Caption for single image" class="fancybox"><img
-											src="images/gallery/gallery-2.jpg" alt=""></a>
+											src="images/gallery/gallery-2.jpg" alt=""></a>laboriosam quo nostrum quos
+									asperiores et natus commodi minus. Neque,
 								</div>
 								<div class="col-4">
 									<a href="images/gallery/gallery-4.jpg" data-fancybox="gallery"
@@ -691,6 +698,18 @@
 		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
 		</script>
 	</div>
+	<!-- .................side nav...... -->
+	<script>
+		function openNav() {
+			document.getElementById("myNav").style.width = "50%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
+
+	<!-- .................side nav...... -->
 	<script>
 		// Function to format 1 in 01
 		const zeroFill = n => {

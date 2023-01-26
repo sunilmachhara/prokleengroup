@@ -284,7 +284,7 @@ h6 a,
   transition: all 0.4s ease-in-out;
 }
 .theme-menu-wrapper {
-  background-color: #672603 !important;
+  background-color: #ffff !important;
 }
 /*----------------------- Theme Color File -------------------*/
 
@@ -322,7 +322,82 @@ h6 a,
   padding: 0 35px;
   background: #672603 !important;
 }
+/* ..................................side-nav............................ */
 
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/* ..................................side-nav end............................ */
+/* main nav................ */
+.logo-area{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-icon span {
+margin-left: -50px;
+font-size: 38px;
+cursor: pointer;
+padding: 27px;
+color: #fff;
+}
+.logo-icon span:hover{
+  color: #000;
+}
+.time{
+padding: 27px;
+}
+.logo-img{
+  width: 300px;
+  padding: 10px;
+}
+
+/* main nav................ */
 
 /*------------------- Theme Title ------------------*/
 .theme-title-one {
@@ -611,8 +686,9 @@ h6 a,
   width: 100%;
 }
 .theme-menu-wrapper:hover {
-  background-color: #672603 !important;
+  background-color: #ffff !important;
   cursor: pointer;
+  color: #000 !important;
 }
 
 /*------------------------ Theme menu Two --------------------*/
@@ -723,7 +799,7 @@ h6 a,
   top: 0;
   left: 0;
   z-index: 999;
-  background: #672603 !important;
+  background: #fff !important;
   margin: 0;
   padding-top: 0;
   box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -1515,7 +1591,7 @@ h6 a,
 
 /*---------------------- Theme footer Two ------------------*/
 .theme-footer-two {
-  background: #703313;
+  background: #273239;
   padding-top: 75px;
 }
 
@@ -3455,7 +3531,7 @@ h6 a,
   width: 100%;
   height: 100%;
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 .carousel-item {
@@ -3509,11 +3585,14 @@ h6 a,
 
 /* ............date-time................. */
 #date-time {
-  color: #672603;
-  font-size: 14px;
-  margin-left: 52px;
-  padding-bottom: 4px;
+  color: #fff;
+  font-size: 20px;
+
 }
+#date-time:hover {
+color: #000;
+}
+
 .logoImg img {
   width: 280px;
   height: 62px;

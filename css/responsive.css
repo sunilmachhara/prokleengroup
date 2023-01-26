@@ -1,4 +1,4 @@
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   .homeServicesData{
     margin-top: 100px;
     margin-left: 677px;
@@ -9,7 +9,7 @@
     padding: 30px;
 }
 }
-@media (min-width: 1316px) {
+@media (max-width: 1316px) {
   .homeServicesData{
     margin-top: 37px;
     margin-left: 677px;
