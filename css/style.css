@@ -405,16 +405,16 @@ h6 a,
 .logo-icon span {
 font-size: 30px;
 cursor: pointer;
-padding: 76px;
+padding: 144px;
 color: #672603;
 }
 .logo-icon p{
-  margin-left: 72px;
+  margin-left: 141px;
   font-size: 12px;
   margin-top: -15px;
   text-transform: uppercase;
   color: #672603;
-  font-weight: 600;
+  font-weight: 400;
 }
 .time{
   margin: 24px 0px 0px 16px;
@@ -434,6 +434,7 @@ color: #672603;
     font-size: 30px;
     font-weight: 400;
     color: #672603;
+    margin-left: -109px;
 }
 .selectLanguage {
  margin-top: 17px;
@@ -598,6 +599,7 @@ color: #672603;
 .theme-title-one {
   position: relative;
   text-align: center;
+  padding-bottom: 30px !important;
 }
 
 .theme-title-one h2 {
@@ -1360,8 +1362,8 @@ color: #672603;
 }
 
 .circle {
-  width: 200px;
-  height: 200px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   overflow: hidden;
   background-color: #fbdd63;
@@ -1476,7 +1478,7 @@ color: #672603;
 .theme-counter .bg {
   background: url(../images/home/pattern.png) no-repeat center center;
   text-align: center;
-  padding: 85px 0 85px 0;
+  /* padding: 85px 0 85px 0; */
 }
 
 .theme-counter h6 {
@@ -3725,6 +3727,7 @@ color: #672603;
   left: 18%;
   transform: translate(-50%, -50%);
 
+
 }
 
 .slider_title h2 {
@@ -4221,12 +4224,12 @@ quote-form {
   overflow: hidden;
   width: 100%;
   height: 100vh;
-
 }
 video {
   min-width: 100%;
   min-height: 100vh;
   z-index: 1;
+  /* position: relative; */
 }
 .overlayyy{
   width: 100%;
@@ -4234,7 +4237,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-size: 3px 3px;
   z-index: 2;
 }
@@ -4242,19 +4245,40 @@ video {
 width: 100%;
 height: 100vh;
 object-fit: cover;
-background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+background: rgba(0, 0, 0, 0.5);
+
 }
-/* h1 {
-  text-align: center;
-  color: #fff;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  z-index: 3;
-  max-width: 400px;
+
+
+
+/* ...........................news-and-update............................... */
+.card{
   width: 100%;
-  height: 50px;
-} */
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card-body{
+padding: 25px !important;
+}
+.card-body h5{
+  font-size: 20px !important;
+  color: #000 !important;
+  font-weight: 400 !important;
+}
+.card-title{
+  padding-bottom: 10px !important;
+}
+.card-text{
+ text-align: justify !important;
+ color: #000;
+ font-size: 18px !important;
+ line-height: 1.9rem;
+}
+.card-link{
+  text-decoration: underline;
+  font-size: 15px !important;
+}
+.card-link:hover{
+  color: #672603;
+}
+/* ...........................news-and-update............................... */
