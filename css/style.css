@@ -381,7 +381,7 @@ h6 a,
 }
 .navbar-icon{
   display: flex;
-  margin-left: 40px;
+  padding-left: 48px;
 
 }
 .notification{
@@ -404,12 +404,17 @@ h6 a,
 /* margin-left: -80px; */
 font-size: 38px;
 cursor: pointer;
-padding: 27px;
+padding: 76px;
 color: #672603;
 }
-/* .logo-icon span:hover{
-  color: #000;
-} */
+.logo-icon p{
+  margin-left: 77px;
+  font-size: 12px;
+  margin-top: -18px;
+  text-transform: uppercase;
+  color: #672603;
+  font-weight: 600;
+}
 .time{
 padding: 27px;
 }
@@ -1980,6 +1985,10 @@ padding: 27px;
 }
 
 /*------------------- About Company Stye Two -------------------*/
+.about-compnay-two{
+  padding-top: 60px;
+  /* padding-bottom: 60px; */
+}
 .about-compnay-two {
   background-size: cover;
   background-attachment: fixed;
@@ -3699,11 +3708,10 @@ padding: 27px;
 
 .slider_title {
   position: absolute;
-  /* top: 93%;
-  left: 20%; */
   top: 66%;
-  left: 50%;
+  left: 18%;
   transform: translate(-50%, -50%);
+
 }
 
 .slider_title h2 {
@@ -3885,7 +3893,7 @@ quote-form {
 #section-1 .content-slider .slider .banner .banner-inner-wrapper {
   height: 100%;
   padding-top: 6em;
-  background-image: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+  background-image: linear-gradient(rgba(248, 242, 242, 0.9), rgba(244, 243, 240, 0.9));
   box-sizing: border-box;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
@@ -3904,7 +3912,7 @@ quote-form {
   width: 4em;
   height: 0.1875em;
   margin: 2.5em auto;
-  background: #fff;
+  background: #fff !important;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button {
   padding-bottom: 5em;
@@ -3920,11 +3928,11 @@ quote-form {
   border: 0.1875em solid #fff;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
-  color: #e88382;
-  border-color: #e88382;
+  color: #672603 !important;
+  border-color: #672603 !important;
   transition: 0.3s;
 }
-#section-1 .content-slider .slider #top-banner-1 {
+/* #section-1 .content-slider .slider #top-banner-1 {
   background: url('https://designsupply-web.com/samplecontent/vender/codepen/20181014.png') no-repeat center center;
   background-size: cover;
 }
@@ -3939,7 +3947,7 @@ quote-form {
 #section-1 .content-slider .slider #top-banner-4 {
   background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-4.png') no-repeat center center;
   background-size: cover;
-}
+} */
 #section-1 .content-slider nav {
   position: absolute;
   bottom: 0.5em;
@@ -3948,11 +3956,10 @@ quote-form {
   text-align: center;
 }
 #section-1 .content-slider nav .controls {
-  display: block;
-  width: 70%;
-  margin: 0 auto;
+  display: flex;
+  width: 27%;
   font-family: Montserrat, sans-serif;
-  color: #fff;
+  color: #fff !important;
 }
 #section-1 .content-slider nav .controls label {
   position: relative;
@@ -3966,7 +3973,7 @@ quote-form {
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   font-size: 1em;
-  color: #f6eac5;
+  color: #fff !important;
   font-weight: 400;
   cursor: pointer;
   transition: all 0.3s;
@@ -3977,7 +3984,7 @@ quote-form {
   left: 0;
   height: 3px;
   width: 100%;
-  background: #f6eac5;
+  background: #fff !important;
   z-index: 100;
 }
 #section-1 .content-slider nav .controls label .progressbar .progressbar-fill {
@@ -3985,14 +3992,14 @@ quote-form {
   width: inherit;
   height: inherit;
   margin-left: -100%;
-  background: #e88382;
+  background: #672603 !important;
 }
 #section-1 .content-slider nav .controls label span {
   font-size: 1.4em;
   font-weight: 700;
 }
 #section-1 .content-slider nav .controls label:hover {
-  color: #e88382;
+  color: #672603 !important;
 }
 #section-1 .content-slider #banner1:checked ~ .slider #top-banner-1,
 #section-1 .content-slider #banner2:checked ~ .slider #top-banner-2,
@@ -4006,14 +4013,14 @@ quote-form {
 #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3),
 #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) {
   cursor: default;
-  color: #fff;
+  color: #fff !important;
   transition: all 0.5s;
 }
 #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar,
 #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar,
 #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar,
 #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar {
-  background: #fff;
+  background: #fff !important;
 }
 #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar-fill,
 #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar-fill,
@@ -4021,6 +4028,7 @@ quote-form {
 #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar-fill {
   animation: progressBarFill 5s linear;
 }
+
 /* Animations */
 @keyframes progressBarFill {
   from {
