@@ -381,46 +381,59 @@ h6 a,
 }
 .navbar-icon{
   display: flex;
-  padding-left: 48px;
+  margin-left: 220px;
 
 }
 .notification{
-
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 26px;
+  margin-left: 0px;
 }
 .notification i{
-  font-size: 30px;
+  font-size: 20px;
   color: #672603;
 }
 /* ..................................side-nav end............................ */
 /* main nav................ */
 .logo-area{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
  
 }
+.logo-icon{
+  margin-top: 9px;
+}
 .logo-icon span {
-/* margin-left: -80px; */
-font-size: 38px;
+font-size: 30px;
 cursor: pointer;
 padding: 76px;
 color: #672603;
 }
 .logo-icon p{
-  margin-left: 77px;
+  margin-left: 72px;
   font-size: 12px;
-  margin-top: -18px;
+  margin-top: -15px;
   text-transform: uppercase;
   color: #672603;
   font-weight: 600;
 }
 .time{
-padding: 27px;
+  margin: 24px 0px 0px 16px;
 }
-.logo-img{
-  width: 300px;
+.logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 249px;
+}
+.logo-img img{
+  max-width: 265px;
   padding: 10px;
+}
+.logo-slass{
+  margin-top: 9px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #672603;
 }
 .selectLanguage {
  margin-top: 17px;
@@ -501,7 +514,7 @@ padding: 27px;
 }
 .btn-search i {
   color: #672603;
-  font-size:30px;
+  font-size:20px;
 }
 @keyframes youtubeAnim {
   0%,
@@ -3752,7 +3765,7 @@ padding: 27px;
 /* ............date-time................. */
 #date-time {
   color:#672603;
-  font-size: 20px;
+  font-size: 15px;
 
 }
 /* #date-time:hover {
