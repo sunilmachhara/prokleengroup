@@ -16,7 +16,7 @@
 .logo-icon span {
   font-size: 30px;
   cursor: pointer;
-  padding: 0px 41px 0px 145px;
+  /* padding: 0px 41px 0px 145px; */
   color: #672603;
 }
 @media (max-width: 1316px) {
