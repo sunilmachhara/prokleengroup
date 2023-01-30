@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/demoradiantnepal/public_html/prokleen/
+    - /bin/cp -r * $DEPLOYPATH
