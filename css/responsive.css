@@ -8,6 +8,16 @@
     border-left: 3px solid #fbdd63;
     padding: 30px;
 }
+.navbar-icon{
+  display: flex;
+  /* margin-left: 220px; */
+
+}
+.logo-icon span {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0px 41px 0px 145px;
+  color: #672603;
 }
 @media (max-width: 1316px) {
   .homeServicesData{
