@@ -2149,6 +2149,7 @@ color: #672603;
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   margin-top: 48px;
   margin-left: 602px;
+  right: 0px;
 }
 /*----------------------- Our Case --------------------*/
 .our-case .row {
@@ -3754,11 +3755,9 @@ color: #672603;
 
 .slider_title {
   position: absolute;
-  top: 76%;
-  left: 23%;
+  top: 68%;
+  left: 18%;
   transform: translate(-50%, -50%);
-
-
 }
 
 .slider_title h2 {
