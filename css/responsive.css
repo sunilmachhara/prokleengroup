@@ -1,3 +1,11 @@
+@media (max-width: 14920px) {
+  .slider_title {
+    position: absolute;
+    top: 83%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+}
 @media (max-width: 1440px) {
   .homeServicesData{
     margin-left: 603px;
