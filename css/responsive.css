@@ -1,10 +1,10 @@
 @media (max-width: 1500px) {
-  .slider_title {
+  /* .slider_title {
     position: absolute;
     top: 83%;
     left: 25%;
     transform: translate(-50%, -50%);
-  }
+  } */
 }
 @media (max-width: 1440px) {
   .homeServicesData{
@@ -17,11 +17,11 @@
     padding: 30px;
 }
 .slider_title {
-  position: absolute;
+  /* position: absolute;
   top: 83%;
   left: 25%;
   transform: translate(-50%, -50%);
-}
+} */
 }
 @media (max-width: 1316px) {
   .homeServicesData{
