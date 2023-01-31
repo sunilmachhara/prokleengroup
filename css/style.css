@@ -3755,9 +3755,8 @@ color: #672603;
 
 .slider_title {
   position: absolute;
-  top: 65%;
-  left: 5%;
-  /* transform: translate(-50%, -50%); */
+  bottom: 30%;
+  left: 2%;
 }
 
 .slider_title p {
