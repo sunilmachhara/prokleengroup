@@ -284,7 +284,8 @@ h6 a,
   transition: all 0.4s ease-in-out;
 }
 .theme-menu-wrapper {
-  background-color: #ffff !important;
+  /* background-color: #000 !important;
+  opacity: 0.5; */
 }
 /*----------------------- Theme Color File -------------------*/
 
@@ -406,14 +407,14 @@ margin-left: 104px;
 font-size: 30px;
 cursor: pointer;
 margin-left: 144px;
-color: #672603;
+color: #fff;
 }
 .logo-icon p{
   margin-left: 141px;
   font-size: 12px;
   margin-top: -15px;
   text-transform: uppercase;
-  color: #672603;
+  color: #fff;
   font-weight: 400;
 }
 .time{
@@ -438,7 +439,7 @@ color: #672603;
   margin-top: 9px;
     font-size: 30px;
     font-weight: 400;
-    color: #672603;
+    color: #fff;
     margin-left: -109px;
 }
 .selectLanguage {
@@ -591,7 +592,8 @@ color: #672603;
 .theme-title-one {
   position: relative;
   text-align: center;
-  padding-bottom: 30px !important;
+  /* padding-bottom: 30px !important;
+   */
 }
 
 .theme-title-one h2 {
@@ -810,7 +812,7 @@ color: #672603;
   line-height: 15px;
   font-size: 11px;
   font-weight: 600;
-  color: #555555;
+  /* color: #555555; */
   top: 23px;
   right: -8px;
 }
@@ -875,9 +877,10 @@ color: #672603;
   width: 100%;
 }
 .theme-menu-wrapper:hover {
-  background-color: #ffff !important;
+  background-color: #000 !important;
   cursor: pointer;
-  color: #000 !important;
+  color: #fff !important;
+  opacity: 0.5;
 }
 
 /*------------------------ Theme menu Two --------------------*/
@@ -988,12 +991,14 @@ color: #672603;
   top: 0;
   left: 0;
   z-index: 999;
-  background: #fff !important;
+  background: #000 !important;
+  opacity: 0.5;
   margin: 0;
   padding-top: 0;
   box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.15);
   -webkit-animation: menu_sticky 0.7s ease-in-out;
   animation: menu_sticky 0.7s ease-in-out;
+
 }
 /*---------------------------- Theme Main Banner -------------------------*/
 #theme-main-banner {
@@ -1994,14 +1999,14 @@ color: #672603;
 /*------------------- About Company Stye Two -------------------*/
 .about-compnay-two{
   padding-top: 60px;
-  /* padding-bottom: 60px; */
+  padding-bottom: 60px;
 }
 .about-compnay-two {
   background-size: cover;
   background-attachment: fixed;
 }
 
-.about-compnay-two .overlay {
+.about-compnay-two .overlay00 {
   padding: 50px 0px 0px 0px;
 }
 
@@ -2152,6 +2157,10 @@ color: #672603;
   right: 0px;
 }
 /*----------------------- Our Case --------------------*/
+.our-case{
+  padding-top: 50px;
+  /* padding-bottom: 50px; */
+}
 .our-case .row {
   margin: 0 -22px;
 }
@@ -2489,23 +2498,35 @@ color: #672603;
 
 /*---------------------- Theme Inner Banner -----------------*/
 .theme-inner-banner {
-  background: url(../images/home/inner-banner.jpg) no-repeat center center;
-  background-attachment: fixed;
+  width: 100%;
+  height: 30vh;
+  position: relative;
   background-size: cover;
-  background-color: #707d9e;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: border 0.3s ease-in, box-shadow 0.3s ease-in, background 0.3s, opacity 0.3s ease-in;
+  object-fit: cover;
+}
+.subheader::after{
+  content: "";
+  background-color: #14212b;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.theme-inner-banner .about-area-title{
+  position: relative;
+  padding: 192px 0 0px;
+}
+.about-area-title h2{
+  font-size: 30px;
+  color: #fefcfc !important;
 }
 
-.theme-inner-banner .overlay {
-  background: rgba(0, 26, 87, 0.4);
-  text-align: center;
-  padding: 110px 0 70px 0;
-}
-
-.theme-inner-banner .overlay h2 {
-  font-size: 45px;
-  color: #fff;
-  text-transform: uppercase;
-}
 
 /*------------------- Why WE Best -------------------*/
 .why-we-best {
@@ -3144,9 +3165,12 @@ color: #672603;
 .google-map-two {
   height: 410px;
 }
-
+.contact-us-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .contact-us-section .main-content {
-  margin-top: 50px;
+  margin-top: 15px;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
 }
 
@@ -3796,9 +3820,10 @@ color: #672603;
 
 /* ............date-time................. */
 #date-time {
-  color:#672603;
+  color:#fff;
   font-size: 15px;
   padding: 10px;
+  font-weight: 700;
 
 }
 
@@ -4248,7 +4273,19 @@ width: 100%;
 height: 100vh;
 object-fit: cover;
 background: rgba(0, 0, 0, 0.5);
+opacity: .6;
 
+}
+.bg-video-wrap video::after{
+  content: "";
+    background-color: #14212b;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 
@@ -4286,3 +4323,30 @@ padding: 25px !important;
   color: #672603;
 }
 /* ...........................news-and-update............................... */
+/*Subheader*/
+.normal-bg{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: border 0.3s ease-in, box-shadow 0.3s ease-in,background 0.3s, opacity 0.3s ease-in;
+}
+.subheader:before{
+  content: '';
+  background-color: #14212b;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.subheader .subheader-content{
+  position: relative;
+  padding: 150px 0 50px;
+}
+.subheader .subheader-content .page-title{
+  font-size: 35px;
+  margin-bottom: 5px;
+}
