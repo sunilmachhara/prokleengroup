@@ -28,6 +28,33 @@
     padding: 10px 10px 10px 10px;
   }
 }
+@media (min-width: 1100px) {
+  #date-time {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 700;
+}
+.logo-img img {
+  max-width: 222px;
+  padding: 10px;
+}
+.slider_title {
+  position: absolute;
+  bottom: 38%;
+  left: 5%;
+}
+#section-1 .content-slider nav .controls {
+  margin-left: 38px;
+  margin-bottom: 20px;
+}
+#section-1 .content-slider nav .controls {
+  display: flex;
+  width: 35%;
+  font-family: Montserrat, sans-serif;
+  color: #fff !important;
+}
+}
 
 @media (min-width: 992px) {
   .container {
@@ -80,20 +107,24 @@
   .slider_title {
     position: absolute;
     bottom: 41%;
-    left: 2%;
+    left: 4%;
   }
   .logo-icon span {
     font-size: 30px;
     cursor: pointer;
     margin-left: 45px;
-    color: #672603;
+    color: #fff;
+}
+.logo-img img {
+  max-width: 225px;
+  padding: 10px;
 }
 .logo-icon p {
   margin-left: 45px;
   font-size: 12px;
   margin-top: -15px;
   text-transform: uppercase;
-  color: #672603;
+  color: #fff;
   font-weight: 400;
 }
 .time {
@@ -106,7 +137,7 @@
   margin-top: -1px;
   font-size: 30px;
   font-weight: 400;
-  color: #672603;
+  color: #fff;
   margin-left: -109px;
 }
 .logo-img {
@@ -114,6 +145,12 @@
   justify-content: center;
   align-items: center;
   margin-left: 55px;
+}
+#section-1 .content-slider nav .controls {
+  width: 45%;
+  /* margin: 20px; */
+  margin-left: 20px;
+  margin-bottom: 35px;
 }
 }
 
@@ -187,9 +224,9 @@
   .blog-details .single-blog .post-meta .mark-text .inner-text {padding-top: 80px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text:before {top:10px;}
   #theme-main-banner {height: 600px !important;}
-  .clearfix {
-    background-color: #672603 !important;
-}
+  /* .clearfix {
+    background-color: #000 !important;
+} */
 .homeServicesData{
   margin-left: 185px;
   margin-top: 54px;
@@ -199,6 +236,15 @@
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 @media only screen and (max-width: 768px) {
+  #date-time{
+    font-size: 9px;
+  }
+  .time {
+    display: flex;
+    align-items: center;
+    margin-top: -73px;
+    margin-left: 210px;
+}
   .logoImg img{
    height: 30px;
    object-fit: contain;
@@ -214,10 +260,32 @@
   .slider_title p {
    font-size: 20px !important;
    line-height: 30px !important;
+   margin-bottom: 155px;
   }
-  .clearfix {
-   background-color: #672603 !important;
- }
+  .logo-img img {
+    max-width: 166px;
+    padding: 10px;
+}
+.selectLanguage {
+  margin-top: 17px;
+  margin-left: -31px;
+}
+.logo-icon {
+  margin-top: 0px;
+}
+.about-compnay-two .text p {
+  color: #000;
+  /* padding: 0 132px 15px 0; */
+  text-align: justify !important;
+  line-height: 2rem !important;
+}
+.quote-form img {
+  position: absolute;
+  width: 100%;
+  /* height: auto; */
+  transition: 0.5s;
+  object-fit: cover;
+}
  }
 @media (max-width: 767px) {
   .header-one .top-header {padding-bottom: 0;}
