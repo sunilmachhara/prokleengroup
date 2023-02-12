@@ -5,7 +5,7 @@
     left: 2%;
   }
 }
-@media (max-width: 1440px) {
+@media only screen and (max-width: 1440px) {
   .homeServicesData {
     margin-left: 603px;
     padding: 10px 10px 10px 11px;
@@ -17,7 +17,7 @@
   }
   .slider_title {
     position: absolute;
-    bottom: 33%;
+    bottom: 20%;
     left: 2%;
   }
 }
@@ -28,9 +28,8 @@
     padding: 10px 10px 10px 10px;
   }
 }
-@media (min-width: 1100px) {
+@media only screen and (max-width: 1100px) {
   #date-time {
-    color: #fff;
     font-size: 12px;
     padding: 10px;
     font-weight: 700;
@@ -41,7 +40,7 @@
   }
   .slider_title {
     position: absolute;
-    bottom: 38%;
+    bottom: 22%;
     left: 5%;
   }
   #section-1 .content-slider nav .controls {
@@ -55,7 +54,11 @@
     color: #fff !important;
   }
 }
-
+@media only screen and (max-width: 1099px) {
+  .slider_title p {
+    padding-bottom: 95px;
+  }
+}
 @media (min-width: 992px) {
   .container {
     padding-left: 0 !important;
@@ -149,7 +152,7 @@
 @media (max-width: 1024px) {
   .slider_title {
     position: absolute;
-    bottom: 41%;
+    bottom: 20%;
     left: 4%;
   }
   .logo-icon span {
@@ -180,7 +183,6 @@
     margin-top: -1px;
     font-size: 30px;
     font-weight: 400;
-    color: #fff;
     margin-left: -109px;
   }
   .logo-img {
@@ -403,7 +405,20 @@
   }
 }
 /*(max-width: 991px)*/
-
+@media only screen and (max-width: 860px) {
+  .slider_title {
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .slider_title {
+    position: absolute;
+    bottom: 12%;
+    left: 4%;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .header-one .top-header .address-wrapper .address:first-child {
     margin-right: 20px;
@@ -489,8 +504,8 @@
     transition: 0.5s;
     object-fit: cover;
   }
-  .overlay{
-    width: 36%;
+  .overlay {
+    width: 47%;
   }
 }
 @media (max-width: 767px) {
@@ -605,23 +620,23 @@
   .about-text-area {
     margin-left: 18px;
     margin-top: 446px;
-}
-.homeServicesData {
-  margin-top: 194px;
-  margin-left: -8px;
-  padding: 13px 13px 13px 13px;
-  width: 100%;
-}
-.about-text-area {
-  margin-left: 23px;
-}
-.about-compnay-two .text p {
-  color: #000;
-  /* padding: 0 132px 15px 0; */
-  text-align: justify !important;
-  line-height: 2rem !important;
-  width: 89%;
-}
+  }
+  .homeServicesData {
+    margin-top: 194px;
+    margin-left: -8px;
+    padding: 13px 13px 13px 13px;
+    width: 100%;
+  }
+  .about-text-area {
+    margin-left: 23px;
+  }
+  .about-compnay-two .text p {
+    color: #000;
+    /* padding: 0 132px 15px 0; */
+    text-align: justify !important;
+    line-height: 2rem !important;
+    width: 89%;
+  }
 }
 /*(min-width: 576px) and (max-width: 767px)*/
 
@@ -793,7 +808,7 @@
     text-align: justify !important;
     line-height: 2rem !important;
     width: 89%;
-}
+  }
 }
 /*(max-width: 575px)*/
 
@@ -807,9 +822,17 @@
     padding: 30px 10px;
   }
 }
+@media only screen and (max-width: 425px) {
+  .time{
+    display: none !important; 
+  }
+}
 @media (max-width: 425px) {
   .about-text-area {
     margin-left: 0px;
+  }
+  .time {
+    display: none;
   }
   .homeServicesData {
     margin-top: 42px;
@@ -823,9 +846,7 @@
     margin-left: 0px;
     margin-top: 402px;
   }
-  /* .about-compnay-two .quote-form {
-    padding: 0px 0px 0px 0px;
-} */
+
   .quote-form img {
     position: absolute;
     width: 93%;
@@ -833,21 +854,18 @@
     transition: 0.5s;
     object-fit: cover;
   }
-  .time {
-    display: none;
-  }
   .logo-icon span {
     font-size: 30px;
     cursor: pointer;
     margin-left: 23px;
-    color: #fff;
+    color: #672603;
   }
   .logo-icon p {
     margin-left: 23px;
     font-size: 12px;
     margin-top: -15px;
     text-transform: uppercase;
-    color: #fff;
+    color: #672603;
     font-weight: 400;
   }
   .logo-img {
@@ -876,23 +894,23 @@
   }
   .slider_title {
     position: absolute;
-    bottom: 45%;
+    bottom: 13%;
     left: 8%;
   }
-  .scroll-top{
+  .scroll-top {
     margin-right: 28px;
   }
-  .overlay{
+  .overlay {
     width: 50%;
   }
   .logo-img img {
     max-width: 100px;
     padding: 10px;
-}
-.navbar-icon {
-  display: flex;
-  margin-left: 25px;
-}
+  }
+  .navbar-icon {
+    display: flex;
+    margin-left: 25px;
+  }
 }
 @media (max-width: 400px) {
   .service-style-one .single-service .text {
@@ -929,12 +947,11 @@
   }
   .about-compnay-two .quote-form {
     padding: 0px 15px 0px 0px;
-}
-.navbar-icon {
-  display: flex;
-  margin-left: 14px;
-}
-
+  }
+  .navbar-icon {
+    display: flex;
+    margin-left: 14px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -959,7 +976,7 @@
   .slider_title p {
     font-size: 11px !important;
     line-height: 10px !important;
-}
+  }
 }
 @media only screen and (max-width: 350px) {
   .logoImg img {
