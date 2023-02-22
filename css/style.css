@@ -407,14 +407,14 @@ margin-left: 104px;
 font-size: 30px;
 cursor: pointer;
 margin-left: 144px;
-color: #672603;
+color: #fff;
 }
 .logo-icon p{
   margin-left: 141px;
   font-size: 12px;
   margin-top: -15px;
   text-transform: uppercase;
-  color: #672603;
+  color: #fff;
   font-weight: 400;
 }
 .time{
@@ -439,7 +439,7 @@ color: #672603;
   margin-top: 9px;
     font-size: 30px;
     font-weight: 400;
-    color:#672603;
+    color:#fff;
     margin-left: -109px;
 }
 .selectLanguage {
@@ -879,8 +879,9 @@ color: #672603;
 .theme-menu-wrapper:hover {
   background-color: #fff !important;
   cursor: pointer;
-  color: #fff !important;
+  color: #ff0000 !important;
   /* opacity: 0.5; */
+  text-decoration-color: #672603;
 }
 
 /*------------------------ Theme menu Two --------------------*/
@@ -992,6 +993,7 @@ color: #672603;
   left: 0;
   z-index: 999;
   background: #fff !important;
+  color: #672603 !important;
   margin: 0;
   padding-top: 0;
   box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -999,6 +1001,7 @@ color: #672603;
   animation: menu_sticky 0.7s ease-in-out;
 
 }
+
 /*---------------------------- Theme Main Banner -------------------------*/
 #theme-main-banner {
   margin: 0 !important;
@@ -3819,12 +3822,46 @@ color: #672603;
 
 /* ............date-time................. */
 #date-time {
-  color:#672603;
+  color:#fff;
   font-size: 15px;
   padding: 10px;
   font-weight: 700;
 
 }
+
+
+
+
+
+.theme-menu-wrapper:hover #date-time {
+  color: #672603;
+}
+.theme-menu-wrapper:hover .logo-icon span {
+  color: #672603;
+}
+.theme-menu-wrapper:hover .logo-icon p {
+  color: #672603;
+}
+.theme-menu-wrapper:hover .logo-slass {
+  color: #672603;
+}
+.theme-menu-wrapper.fixed #date-time {
+  color: #672603;
+}
+.theme-menu-wrapper.fixed .logo-icon span  {
+  color: #672603;
+}
+.theme-menu-wrapper.fixed .logo-icon p {
+  color: #672603;
+}
+.theme-menu-wrapper.fixed .logo-slass {
+  color: #672603;
+}
+
+
+
+
+
 
 .logoImg img {
   width: 280px;
